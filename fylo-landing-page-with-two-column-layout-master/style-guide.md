@@ -41,3 +41,4 @@ The designs were created to the following widths:
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400
+

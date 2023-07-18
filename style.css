@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --verydarkblue:hsl(243, 87%, 12%);
+    --desaturatedblue: hsl(238, 22%, 44%);
+
+
+    --BrightBlue: hsl(224, 93%, 58%);
+    --ModerateCyan: hsl(170, 45%, 43%);
+
+    
+    --LightGrayishBlue: hsl(240, 75%, 98%);
+    --LightGray: hsl(0, 0%, 75%);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Sriracha&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
