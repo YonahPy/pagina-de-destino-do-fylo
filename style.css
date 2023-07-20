@@ -58,7 +58,8 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    background-color: transparent;
+    
     
 }
 
@@ -69,22 +70,40 @@ h1, h2{
 
 p{
     font-family: 'Open Sans', sans-serif;
-    color: var(--desaturatedblue);
     font-weight:500;
     line-height: 24px;
+    
 }
 
 
-section{
+.primeira, .segunda{
     display: flex;
     flex-direction: column;
     padding: 25px;
     width: 90vw;
     gap: 25px;
-    
     margin: 20px 0px;
     text-align: center;
+    color: var(--desaturatedblue);
+
+    
 }
+
+
+
+.terceira, .quarta{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100vw;
+    gap: 25px;
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: var(--verydarkblue);
+    margin-bottom: -20px;
+}
+
 
 .email{
     
@@ -110,6 +129,26 @@ section{
 
 }
 
+.link{
+    color: var(--ModerateCyan);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-block: 20px;
+      
+}
+
+.link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px; 
+    width: 100%;
+    height: 1px;
+    background-color: var(--ModerateCyan);
+  }
+
+
 .primeira > h1{
     margin-block: 10px;
 }
@@ -117,3 +156,47 @@ section{
 .ilustrações{
     width: 60vw;   
 }
+
+.depoimento{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.depoimento p {
+    color: var(--verydarkblue);
+   
+}
+
+#texto{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.aspas{
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+
+.perfil{
+    display: inline-flex;
+    flex-direction: row;
+    align-self: flex-start;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: -48px;
+   
+}
+.nome{
+    text-align: justify;
+    margin-left: 65px;
+}
+
+
