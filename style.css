@@ -61,6 +61,7 @@ main{
     background-color: transparent;
     
     
+    
 }
 
 h1, h2{
@@ -90,20 +91,11 @@ p{
 }
 
 
-
-.terceira, .quarta{
+form{
     display: flex;
     flex-direction: column;
-    padding: 25px;
-    width: 100vw;
-    gap: 25px;
-    margin: 20px 0px;
-    text-align: center;
-    color: white;
-    background-color: var(--verydarkblue);
-    margin-bottom: -20px;
+    align-items: center;
 }
-
 
 .email{
     
@@ -197,6 +189,182 @@ p{
 .nome{
     text-align: justify;
     margin-left: 65px;
+}
+
+.terceira, .quarta{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100vw;
+    gap: 25px;
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: var(--verydarkblue);
+    margin-bottom: -20px;
+    
+    
+}
+
+.terceira h1{
+    color: white;
+}
+
+.terceira p{
+    margin-inline: 15px;
+    
+}
+
+.enviar:hover ~ .terceira{
+    background-color: rgba(201, 3, 3, 0.897);
+    
+    
+}
+
+.quarta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.logo{
+    width: 250px;
+    padding-left: 30px;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+.quarta p{
+    padding-left:30px;
+}
+
+.quarta p > img{
+    padding-right: 13px;
+}
+
+
+.icones{
+    display: flex;
+    align-self: center;
+    margin-block: 20px;
+    
+    
+    
+    
+}
+.icones > img{
+    border-radius: 50%;
+    width: 45px;
+    margin: 10px;
+
+
+}
+
+.icones > img:hover{
+    padding: 4px;
+    transition: ease-in-out 0.2s;
+    border: 3px solid var(--BrightBlue);
+}
+
+.footer:hover{
+    color: var(--BrightBlue);
+    cursor: pointer;
+}
+
+@media (min-width: 950px) and (max-width: 1179px) {
+
+    header > img{
+        height: 7vh;
+    }
+
+    form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .email{
+        margin-bottom: 0px;
+    }
+
+    .quarta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #phone{
+        align-self: flex-end;
+        
+    }
+    .logo{
+        padding-bottom: 40px;
+    }
+    .icones{
+        
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1180px) {
+
+    header > img{
+        height: 60px;
+        
+    }
+    .terceira h1,p{
+        padding-inline: 80px;
+    }
+    p, li{
+        font-size: 18px;
+    }
+    form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .email{
+        margin-bottom: 0px;
+    }
+
+    .quarta{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #phone{
+        align-self: flex-end;
+        
+    }
+    .logo{
+        padding-bottom: 40px;
+    }
+    .icones{
+        
+        justify-content: center;
+    }
+
+
+}
+@media (min-width: 1300px){
+    .primeira{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+      
+    }
+    .primeira h1,p,form{
+        order: 1;
+    }
+
+
+
+    .ilustração{
+        width: 40vw;
+        order: 2;
+        
+    }
 }
 
 
