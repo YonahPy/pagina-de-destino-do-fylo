@@ -347,24 +347,9 @@ form{
 
 
 }
-@media (min-width: 1300px){
-    .primeira{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        
-      
-    }
-    .primeira h1,p,form{
-        order: 1;
-    }
 
+@media (min-width: 1300px)
+    
 
-
-    .ilustração{
-        width: 40vw;
-        order: 2;
-        
-    }
-}
 
 
