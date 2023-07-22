@@ -348,8 +348,103 @@ form{
 
 }
 
-@media (min-width: 1300px)
+@media (min-width: 1300px){
+    header > img{
+        height: 70px;
+    }
+    .primeira, .segunda, .terceira, .quarta{
+        padding-bottom: 300px;
+    }
+    .primeira, .segunda{
+        position: relative;
+        
+        
+    }
+    .primeira > h1{
+        position: absolute;
+        top: 100px;
+        width: 600px;
+        font-size: 35px;
+   
+    }
+    .primeira > p{
+        position: absolute;
+        top: 220px;
+        width: 600px;
+    }
+    .primeira > form{
+        position: absolute;
+        top: 330px;
+        width: 500px;
+        align-self: flex-start;
+        padding-left: 40px;
+    }
+
+    .primeira > img,.segunda > img{
+        width: 60vh;
+        align-self: flex-end;
+        display: inline-flex;
+    }
     
+    .segunda > h2{
+        position: absolute;
+        top:40px;
+        width: 600px;
+        font-size: 35px;
+    }
+    .segunda > #p1{
+        position: absolute;
+        top: 120px;
+        width: 600px;
+    }
+    .segunda > #p2{
+        position: absolute;
+        top: 190px;
+        width: 600px;
+    }
+    .link2{
+        position: absolute;
+        top: 290px;
+        left: 140px;
+    }
+   .depoimento{
+        position: absolute;
+        width: 600px;
+        top: 370px;
+   }
+
+   
+
+   .terceira > form{
+    position: absolute;
+    flex-direction: column;
+    bottom: -1010px;
+    align-self: flex-end;
+    right: 100px;
+   }
+   .email{
+    width: 420px;
+    height: 47px;
+   }
+   .enviar{
+    align-self: flex-start;
+    width: 210px;
+    height: 47px;
+    
+   }
+   .terceira > h1{
+    position: absolute;
+    bottom: -940px;
+    width: 600px;
+    font-size: 35px;
+    
+   }
+   .terceira > p{
+    position: absolute;
+    bottom:-1040px;
+    width: 600px;
+   }
+   
 
 
-
+}
